@@ -54,7 +54,7 @@ import net.bull.javamelody.internal.web.MonitoringController;
  * Contexte du filtre http pour initialisation et destruction.
  * @author Emeric Vernat
  */
-class FilterContext {
+class FilterContext {  
 	private static final boolean MOJARRA_AVAILABLE = isMojarraAvailable();
 
 	private final String applicationType;

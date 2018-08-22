@@ -40,7 +40,7 @@ import net.bull.javamelody.internal.web.HttpAuth;
 
 /**
  * Servlet de collecte utilisée uniquement pour le serveur de collecte ({@link CollectorServer}) séparé de l'application monitorée.
- * @author Emeric Vernat
+ * @author duwencun
  */
 public class CollectorServlet extends HttpServlet {
 	private static final long serialVersionUID = -2070469677921953224L;
